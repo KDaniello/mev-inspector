@@ -1,0 +1,27 @@
+# --- Rust ---
+/target
+Cargo.lock
+**/*.rs.bk
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.streamlit/
+
+# --- Environment & Secrets ---
+.env
+.env.local
+
+# --- Data Files (Don't commit logs) ---
+*.jsonl
+*.json
+mev_data.jsonl
+OUTPUT_FILE
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.swp
